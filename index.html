@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>PORTAFOLIO ALLISON</title>
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section class="inicio" id="inicio">
+        <div class="contenido-seccion">
+            <header>
+                <div class="nav-bar" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <nav id="nav" class="nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#sobremi">Sobre mí</a>
+                    <a href="#habilidades">Conocimientos</a>
+                    <a href="#proyectos">Proyectos</a>
+                    <a href="#resumen">Resumen</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+                <div class="logo">
+                    A<span class="color">R</span>
+                </div>
+            </header>
+            <div class="info">
+                <h1>ALLISON RODRIGUEZ</h1>
+                <h3>QA TESTING EN PROCESO</h3>
+                <h2>¡Hola! Soy Allison, estudiante de ingeniería en sistemas y redes informáticas, como futura profesional de esta área estoy interesado en aprender y crecer en mi campo más que todo en el desarrollo de software, análisis de sistemas y arquitecturas de software, ya que me apasiona la tecnología y su constante evolución, me gusta el aprendizaje continuo y la resolución de problemas complejos.</h2>
+
+                <div class="redes">
+                    <a href="https://github.com/Vane07R" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:AllisonV_rodriguez@outlook.com"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/in/allison-rodriguez-805658266" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="foto">
+                <img src="img/me.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section class="sobremi" id="sobremi">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Sobre Mi</h2>
+            <h3>Detalles personales</h3>
+
+            <p class="especial">Me dedico a aprender software día a día.</p>
+            <p>Estoy en busca de oportunidades para aplicar mis habilidades y conocimientos en el desarrollo de proyectos innovadores. Me entusiasma trabajar en colaboración con otros profesionales y aprender de ellos, porque creo firmemente que el trabajo en equipo y la colaboración son claves para lograr resultados excelentes en cualquier proyecto. Estoy comprometida con mi crecimiento profesional y estoy emocionada por lo que el futuro me depara en mi carrera en Ingeniería en Sistemas y Redes Informáticas.</p>
+            <a download href="Img/CV .pdf">
+                <button class="descargar-cv">Descargar CV</button></a>
+
+            <div class="fila">
+                <div class="col">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="titulo-detalle">Objetivo</span>
+                    <p>Desarrollar mis conocimientos profesionalmente dentro de una empresa como líder en el desarrollo de software y proyectos innovadores donde pueda aplicar mis habilidades y aptitudes, contribuyendo a estos con mi experiencia y conocimientos en el área de tecnología.</p>
+                </div>
+                
+                <div class="col">
+                    <i class="fa-solid fa-location-pin"></i>
+                    <span class="titulo-detalle">Certificaciones</span>
+                    <p>CCNA: Introduction to Networks</p>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-pen-fancy"></i>
+                    <span class="titulo-detalle">Habilidades blandas</span>
+                    <p>Adaptabilidad</p>
+                    <p>Trabajo en equipo</p>
+                    <p>Liderazgo</p>
+                    <p>Comunicación y escucha activa</p>
+                    <p>Planificación y gestion del tiempo</p>
+                    <p>Paciencia</p>
+
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="titulo-detalle">Habilidades duras</span>
+                    <p>Manejo de personas</p>
+                    <p>Manejo base de datos</p>
+                    <p>Administración de redes</p>
+                    <p>Gestión de proyectos</p>
+                    <p>Manejo de metodologias agiles:SCRUM,KANBAN,DESING SPRINT,PMI,</p>
+                    <p>Comprensión de los principios de diseño de interfaz de usuario y la experiencia de usuario</p>
+                </div>
+
+                <div class="col">
+                    <i class="fa-solid fa-star"></i>
+                    <span class="titulo-detalle"> Valores profesionales</span>
+                    <p>Honesta</p>
+                    <p>Responsable</p>
+                    <p>Ética</p>
+                    <p>Solidaria</p>
+                    <p>Humilde</p>
+                    <p>Respetuosa</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONOCIMIENTOS -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Mis conocimientos</h2>
+            <h3>Actualmente estudio para especializarme al 100% en</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <span>CALIDAD-TESTING</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                            
+                        </div>
+                        <span id="html_span"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>FRAMEWORKS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span id="javascript_span"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>BASES DE DATOS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="wordpress">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span id="wordpress_span"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>METODOLOGIAS AGILES</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="photoshop">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span id="photoshop_span">85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>NETWORK ADMINISTRATOR</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="php">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span id="php_span"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>HERRAMIENTAS DE DISEÑO</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="ilustrator">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span id="ilustrator_span"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section class="resumen" id="proyectos">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Proyectos</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2006 - 2010</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Lic. en computación</h4>
+                                <p>Universidad de San Juan</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2010 - 2015</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programador FS</h4>
+                                <p>Udemy Cursos</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>3 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Mercado Libre</h4>
+                                <p>Programador Junior</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Software Inc.</h4>
+                                <p>Diseñadr Principal</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION RESUMEN -->
+    <section class="habilidades" id="resumen">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Resumen</h2>
+            <h3>Mi preparación y experiencia</h3>
+            <div class="info">
+                <div class="col">
+                    <span class="titulo">Educación</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2006 - 2010</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Lic. en computación</h4>
+                                <p>Universidad de San Juan</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2010 - 2015</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Programador FS</h4>
+                                <p>Udemy Cursos</p>
+                                <span class="promedio">8.9 PG</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <span class="titulo">Experiencia Laboral</span>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>3 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Mercado Libre</h4>
+                                <p>Programador Junior</p>
+                               
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td class="datos">
+                                <h3>2 Años</h3>
+                            </td>
+                            <td rowspan="2" class="descripcion">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Software Inc.</h4>
+                                <p>Diseñadr Principal</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <h3>Ponte en contacto ahora mismo!</h3>
+
+            <div class="fila">
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-phone"></i> Teléfono
+                    </h2>
+                    <span class="info-contacto">6103-9161</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-envelope"></i> Correo
+                    </h2>
+                    <span class="info-contacto">AllisonV_rodriguez@outlook.com</span>
+                </div>
+                <div class="col">
+                    <h2>
+                        <i class="fa-solid fa-globe"></i> Github
+                    </h2>
+                    <span class="info-pagina">https://github.com/Vane07R</span>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
