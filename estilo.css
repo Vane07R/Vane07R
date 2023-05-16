@@ -357,4 +357,10 @@ html{
     .contacto .contenido-seccion .fila{
         display: block;
     }
+
+    .datos2 img{
+        width: 100px !important ;
+
+    }
+
 }
