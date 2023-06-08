@@ -16,6 +16,30 @@ btn.addEventListener('click', function(event) {
     }
 });
 
+const bT = document.getElementById('button');
+
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
+
+   bT.value = 'Sending...';
+
+   const serviceID = 'service_ajxq9fc';
+   const templateID = 'template_7myol9q';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      bT.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      bT.value = 'Send Email';
+      alert(JSON.stringify(err));
+    });
+});
+
+
+
+
 let lang = {
     es: {
         title: "Hola",

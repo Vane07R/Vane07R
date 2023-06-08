@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO -->
+    <meta property="og:image" content="https://allisonrodriguez.com/img/me.jpeg" />
+    <meta property="og:title" content="Allison Rodriguez" />
+    <meta property="og:description" content="Calidad y perfección." />
+    <meta property="og:url" content="https://allisonrodriguez.com/" />
+    <meta property="og:type" content="website" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
@@ -248,81 +256,30 @@
     <!-- SECCION RESUMEN -->
     <section class="habilidades" id="resumen">
         <div class="contenido-seccion">
-            <h2 class="titulo-seccion">Resumen</h2>
-            <h3>Mi preparación y experiencia</h3>
+            <h2 class="titulo-seccion">Contacto</h2>
+            <!-- <h3>Jenny</h3> -->
             <div class="info">
                 <div class="col">
-                    <span class="titulo">Educación</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2006 - 2010</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Lic. en computación</h4>
-                                <p>Universidad de San Juan</p>
-                                <span class="promedio">8.9 PG</span>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2010 - 2015</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Programador FS</h4>
-                                <p>Udemy Cursos</p>
-                                <span class="promedio">8.9 PG</span>
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col">
-                    <span class="titulo">Experiencia Laboral</span>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>3 Años</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Mercado Libre</h4>
-                                <p>Programador Junior</p>
-                               
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td class="datos">
-                                <h3>2 Años</h3>
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero at soluta quos explicabo dolor recusandae, dolorum.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <h4>Software Inc.</h4>
-                                <p>Diseñadr Principal</p>
-                            </td>
-                        </tr>
-                    </table>
+                    <form id="form">
+                        <div class="field">
+                          <label for="from_name">from_name</label>
+                          <input type="text" name="from_name" id="from_name">
+                        </div>
+                        <div class="field">
+                          <label for="to_name">to_name</label>
+                          <input type="text" name="to_name" id="to_name">
+                        </div>
+                        <div class="field">
+                          <label for="message">message</label>
+                          <input type="text" name="message" id="message">
+                        </div>
+                        <div class="field">
+                          <label for="reply_to">reply_to</label>
+                          <input type="text" name="reply_to" id="reply_to">
+                        </div>
+                      
+                        <input type="submit" id="button" value="Send Email" >
+                      </form>
                 </div>
             </div>
         </div>
@@ -331,8 +288,6 @@
     <!-- SECCION CONTACTO -->
     <section class="contacto" id="contacto">
         <div class="contenido-seccion">
-            <h2 data-lang="con" class="titulo-seccion">Contacto</h2>
-            <h3 data-lang="contacto">Ponte en contacto ahora mismo!</h3>
 
             <div class="fila">
                 <div class="col">
@@ -358,7 +313,13 @@
             </div>
         </div>
     </section>
+    
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
+    <script type="text/javascript">
+    emailjs.init('7NhsniSxtycVS80Fd')
+    </script>
     <script src="mi-script.js"></script>
     <script src="app.js"></script>
 </body>
