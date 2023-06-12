@@ -100,7 +100,7 @@ let lang = {
         Fell:"FellsGood",
         Año:"2022",
         lav:"Desarrollada en Laravel",
-        des:"FellsGood: es una aplicación que se creó con el fin de ayudar a las personas a comunicarse de una manera más rápido debido a la pandemia, contaba con una inteligencia que media las emociones de los usuarios para ayudarle a controlarlas recomendándole actividades que debería realizar.",
+        descripcion:"FellsGood: es una aplicación que se creó con el fin de ayudar a las personas a comunicarse de una manera más rápido debido a la pandemia, contaba con una inteligencia que media las emociones de los usuarios para ayudarle a controlarlas recomendándole actividades que debería realizar.",
         ro:"Rol: QA Testing",
         U:"Universidad Gerardo Barrios",
         con:"Contacto",

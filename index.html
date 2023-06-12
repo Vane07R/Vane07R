@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- SEO -->
-    <meta property="og:image" content="img/me.jpeg" />
+    <meta property="og:image" content="https://allisonrodriguez.com/img/me.jpeg" />
     <meta property="og:title" content="Allison Rodriguez" />
     <meta property="og:description" content="Calidad y perfección." />
     <meta property="og:url" content="https://allisonrodriguez.com/" />
@@ -201,6 +201,7 @@
                     <table>
                         <tr>
                             <td class="datos">
+                                <img src="img/PanApp.png" alt="" style="width: 100%;">
                                 <h3 data-lang="año">2021</h3>
                                 <p data-lang="des">Desarrollada en android studio</p>
                             </td>
@@ -216,23 +217,13 @@
                             </td>
                         </tr>
                     </table>
-                    <table>
-                        <tr>
-                            <td class="datos datos2">
-                                
-                            </td>
-                            <td rowspan="2" class="descripcion">
-                                
-                            </td>
-                        </tr>
-                        
-                    </table>
                 </div>
                 <div class="col">
                     <span data-lang="Fell"  class="titulo">FellsGood</span>
                     <table>
                         <tr>
                             <td class="datos">
+                                <img src="img/Fellsgood.jpeg" alt="" style="width: 100%;">
                                 <h3 data-lang="da">2022</h3>
                                 <p data-lang="lav">Desarrollada en Laravel</p>
                             </td>
@@ -262,23 +253,23 @@
                 <div class="col">
                     <form id="form">
                         <div class="field">
-                          <label for="from_name">from_name</label>
-                          <input type="text" name="from_name" id="from_name">
+                          <label for="from_name">Nombre</label>
+                          <input style="width: 80%; margin: auto;" type="text" name="from_name" id="from_name">
                         </div>
                         <div class="field">
-                          <label for="to_name">to_name</label>
-                          <input type="text" name="to_name" id="to_name">
+                          <label for="to_name">Correo</label>
+                          <input style="width: 80%; margin: auto;" type="text" name="to_name" id="to_name">
                         </div>
                         <div class="field">
-                          <label for="message">message</label>
-                          <input type="text" name="message" id="message">
+                          <label for="subject">Asunto</label>
+                          <input style="width: 80%; margin: auto;" type="text" name="subject" id="subject">
                         </div>
                         <div class="field">
-                          <label for="reply_to">reply_to</label>
-                          <input type="text" name="reply_to" id="reply_to">
+                          <label for="message">Mensaje</label>
+                          <textarea style="width: 80%; max-width: 80%; min-width: 80%; margin: auto; height: 150px;" type="text" name="message" id="message"></textarea>
                         </div>
                       
-                        <input type="submit" id="button" value="Send Email" >
+                        <input type="submit" id="button" value="Send Email" style="width: auto; margin: auto; font-size: large;" >
                       </form>
                 </div>
             </div>
